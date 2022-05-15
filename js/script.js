@@ -80,6 +80,10 @@ function renderCanvas() {
   context.font = '32px Courier New';
   context.fillText(playerScore, 20, canvas.height / 2 + 50);
   context.fillText(computerScore, 20, canvas.height / 2 - 30);
+  context.font = '50px Courier New sans-serif';
+  context.strokeText('PONG GAME', 175, 150);
+  context.font = 'italic 12px sans-serif';
+  context.fillText('github.com/JonnathanRiquelmo', 300, 170);
 }
 
 // Create Canvas Element
